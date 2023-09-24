@@ -15,6 +15,7 @@ body {
   background-color: seagreen;
 }
 .wrapper {
+  position: relative;
   width: 420px;
   background: purple;
   color: #fff;
@@ -40,4 +41,8 @@ body {
 }
 .input-box input::placeholder {
   color: #fff;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
 }
