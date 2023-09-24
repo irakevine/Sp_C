@@ -38,6 +38,8 @@ body {
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
 }
 .input-box input::placeholder {
   color: #fff;
@@ -45,4 +47,6 @@ body {
 .input-box i {
   position: absolute;
   right: 20px;
+  transform: translateY(75%);
+  font-size: 20px;
 }
