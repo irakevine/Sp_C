@@ -155,5 +155,5 @@ body {
   margin-right: 1rem;
 }
 .clear {
-  clear: left;
+  clear: both;
 }
