@@ -99,7 +99,7 @@
   text-decoration: underline;
 } */
 
-body {
+/* body {
   margin: 0.5rem;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -127,4 +127,33 @@ li a,
 li a:visited {
   text-decoration: none;
   color: #333;
+}
+li a :hover,
+li a:focus {
+  background: #333;
+  color: whitesmoke;
+  cursor: pointer;
+} */
+
+body {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serifx;
+}
+.block {
+  width: 30vw;
+  height: 30vw;
+  background-color: #000;
+  color: white;
+  padding: 1rem;
+}
+.left {
+  float: left;
+  margin-right: 1rem;
+}
+.right {
+  float: right;
+  margin-right: 1rem;
+}
+.clear {
+  clear: left;
 }
